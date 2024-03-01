@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+
+    images:{
+        domains:['chart.googleapis.com']
+    }
+
+}
+
+
 
 export default nextConfig;
